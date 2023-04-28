@@ -1,0 +1,71 @@
+:root {
+	--bg:#1e1b1e;
+	--fg:#e2ddce;
+	--hi-col1:#ff6b6b;
+	--hi-col2:#dc718c;
+	--hover-col:#7cdea7;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#ml-me-pic {
+	display: flex;
+	justify-content:center;
+}
+
+.meu_nome{
+	background-color:var(--bg);
+	padding:15px;
+	text-align:center;
+}
+
+.menu {
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+.menu a {
+	background-color: var(--hi-col2);
+	padding: 8px;
+	margin-top: 7px;
+	display: block;
+	width: 100%;
+	color: black;
+}
+
+.main {
+	float: left;
+	width: 60%;
+	padding: 0 20px;
+}
+
+.right {
+	background-color: var(--bg);
+	float: left;
+	width: 20%;
+	padding: 15px;
+	margin-top: 7px;
+	text-align: center;
+}
+
+.foot{
+background-color:var(--bg);
+text-align:center;
+padding:10px;
+margin-top:7px;
+}
+
+body {
+	background:var(--bg);
+	color:var(--fg);
+}
+
+@media only screen and (max-width: 620px) {
+	/* For mobile phones: */
+	.menu, .main, .right {
+		width: 100%;
+	}
+}
