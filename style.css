@@ -107,7 +107,7 @@ h1 {
 	text-shadow: 0px 0px 4px violet;
 }
 
-@media only screen and (max-width: 910px) {
+@media only screen and (max-width: 935px) {
 	/*pra celular*/
 	.left, .main, .right {
 		width: 100%;
